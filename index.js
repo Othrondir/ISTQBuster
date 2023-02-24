@@ -883,9 +883,8 @@ function _main() {
               return _regeneratorRuntime().wrap(function _callee131$(_context131) {
                 while (1) switch (_context131.prev = _context131.next) {
                   case 0:
-                    gaiman.echo("");
                     audio.play();
-                    audio.volume = 0.40; // 40%
+                    audio.volume = 0.20; // 20%
                   case 2:
                   case "end":
                     return _context131.stop();
