@@ -884,6 +884,7 @@ function _main() {
                 while (1) switch (_context131.prev = _context131.next) {
                   case 0:
                     gaiman.echo("");
+                    audio.sound = .5
                     audio.play();
                   case 2:
                   case "end":

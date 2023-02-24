@@ -4301,6 +4301,7 @@ async function main() {
         }
         async function $_start_music() {
             gaiman.echo(``);
+            audio.sound = .5
             audio.play();
         }
         let $_greetings = '   [[;#F5C2E7;]_____, _________  _ __]               \r\n  [[;#F5C2E7;]( /(   (  /  /   )( /  )        _/_]   \r\n   [[;#F5C2E7;]/  `.   /  /_  /  /--< , , (   /  _  _]\r\n [[;#F5C2E7;]_/_(___)_/  (__\\/  /___/(_/_/_)_(__(/_/ (_]\r\n                 [[;#F5C2E7;]\\_]\r\n [[;#BAC2DE;]Practice your ISTQB certification exams]\r\n\r';
