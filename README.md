@@ -14,7 +14,7 @@ In the following address you can comfortably browse the three types of exams tha
 [ISTQBuster v1.0](https://qabbalah.github.io/ISTQBuster/)
 
 ## Postscript
-For those who wonder how I created the quiz ->
-[gaiman](https://github.com/jcubic/gaiman)
+For those who wonder how I created the quiz:
+[Forked from jcubic/gaiman](https://github.com/QAbbalah/gaiman)
 
-Thx you very much [Jakub T. Jankiewicz](https://github.com/jcubic)
+Author: [Jakub T. Jankiewicz](https://github.com/jcubic)
