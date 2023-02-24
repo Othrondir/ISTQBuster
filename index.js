@@ -971,7 +971,7 @@ function _main() {
                 while (1) switch (_context129.prev = _context129.next) {
                   case 0:
                     _context129.next = 2;
-                    return gaiman.echo_extra("Let's keep practicing,type the exam letter that you want:", 350);
+                    return gaiman.echo_extra("Let's keep practicing,type the exam letter that you want:", 35);
                   case 2:
                     _context129.next = 4;
                     return gaiman.ask("[[;#F38BA8;]A], [[;#94E2D5;]B] or [[;#89B4FA;]C] ");
@@ -1050,7 +1050,7 @@ function _main() {
                       break;
                     }
                     _context128.next = 4;
-                    return gaiman.echo_extra("[[;#A6E3A1;]You win]", 350);
+                    return gaiman.echo_extra("[[;#A6E3A1;]You win]", 35);
                   case 4:
                     _context128.next = 6;
                     return gaiman.echo_extra("[[;#F5C2E7;]result:]", 30);
@@ -1068,7 +1068,7 @@ function _main() {
                   case 14:
                     gaiman.echo("");
                     _context128.next = 17;
-                    return gaiman.echo_extra("[[;#F38BA8;]You loose]", 350);
+                    return gaiman.echo_extra("[[;#F38BA8;]You loose]", 35);
                   case 17:
                     _context128.next = 19;
                     return gaiman.echo_extra("[[;#F5C2E7;]result:]", 30);
@@ -1102,7 +1102,7 @@ function _main() {
                       break;
                     }
                     _context127.next = 4;
-                    return gaiman.echo_extra("[[;#A6E3A1;]You win]", 350);
+                    return gaiman.echo_extra("[[;#A6E3A1;]You win]", 35);
                   case 4:
                     _context127.next = 6;
                     return gaiman.echo_extra("[[;#F5C2E7;]result:]", 30);
@@ -1120,7 +1120,7 @@ function _main() {
                   case 14:
                     gaiman.echo("");
                     _context127.next = 17;
-                    return gaiman.echo_extra("[[;#F38BA8;]You loose]", 350);
+                    return gaiman.echo_extra("[[;#F38BA8;]You loose]", 35);
                   case 17:
                     _context127.next = 19;
                     return gaiman.echo_extra("[[;#F5C2E7;]result:]", 30);
@@ -1154,7 +1154,7 @@ function _main() {
                       break;
                     }
                     _context126.next = 4;
-                    return gaiman.echo_extra("[[;#A6E3A1;]You win]", 350);
+                    return gaiman.echo_extra("[[;#A6E3A1;]You win]", 35);
                   case 4:
                     _context126.next = 6;
                     return gaiman.echo_extra("[[;#F5C2E7;]result:]", 30);
@@ -1172,7 +1172,7 @@ function _main() {
                   case 14:
                     gaiman.echo("");
                     _context126.next = 17;
-                    return gaiman.echo_extra("[[;#F38BA8;]You loose]", 350);
+                    return gaiman.echo_extra("[[;#F38BA8;]You loose]", 35);
                   case 17:
                     _context126.next = 19;
                     return gaiman.echo_extra("[[;#F5C2E7;]result:]", 30);
@@ -12868,7 +12868,7 @@ function _main() {
         case 310:
           gaiman.echo("");
           _context132.next = 313;
-          return gaiman.echo_extra("Type the exam letter that you want:", 350);
+          return gaiman.echo_extra("Type the exam letter that you want:", 35);
         case 313:
           _context132.next = 315;
           return gaiman.ask("[[;#F38BA8;]A], [[;#94E2D5;]B] or [[;#89B4FA;]C] ");

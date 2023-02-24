@@ -4202,7 +4202,7 @@ async function main() {
         async function $_istqbuster_result_a() {
             gaiman.echo(``);
             if ($_istqbuster_a_score >= 26) {
-                await gaiman.echo_extra(`[[;#A6E3A1;]You win]`, 350);
+                await gaiman.echo_extra(`[[;#A6E3A1;]You win]`, 35);
                 await gaiman.echo_extra(`[[;#F5C2E7;]result:]`, 30);
                 gaiman.echo($_istqbuster_a_score);
                 await gaiman.echo_extra(`[[;#F38BA8;]Congratulations, you are on the right track, keep practicing!]`, 30);
@@ -4210,7 +4210,7 @@ async function main() {
                 await $_restart();
             } else {
                 gaiman.echo(``);
-                await gaiman.echo_extra(`[[;#F38BA8;]You loose]`, 350);
+                await gaiman.echo_extra(`[[;#F38BA8;]You loose]`, 35);
                 await gaiman.echo_extra(`[[;#F5C2E7;]result:]`, 30);
                 gaiman.echo($_istqbuster_a_score);
                 await gaiman.echo_extra(`[[;#F38BA8;]Keep trying, Rome wasn't built in a day!]`, 30);
@@ -4221,7 +4221,7 @@ async function main() {
         async function $_istqbuster_result_b() {
             gaiman.echo(``);
             if ($_istqbuster_b_score >= 26) {
-                await gaiman.echo_extra(`[[;#A6E3A1;]You win]`, 350);
+                await gaiman.echo_extra(`[[;#A6E3A1;]You win]`, 35);
                 await gaiman.echo_extra(`[[;#F5C2E7;]result:]`, 30);
                 gaiman.echo($_istqbuster_b_score);
                 await gaiman.echo_extra(`[[;#F38BA8;]Congratulations, you are on the right track, keep practicing!]`, 30);
@@ -4229,7 +4229,7 @@ async function main() {
                 await $_restart();
             } else {
                 gaiman.echo(``);
-                await gaiman.echo_extra(`[[;#F38BA8;]You loose]`, 350);
+                await gaiman.echo_extra(`[[;#F38BA8;]You loose]`, 35);
                 await gaiman.echo_extra(`[[;#F5C2E7;]result:]`, 30);
                 gaiman.echo($_istqbuster_b_score);
                 await gaiman.echo_extra(`[[;#F38BA8;]Keep trying, Rome wasn't built in a day!]`, 30);
@@ -4240,7 +4240,7 @@ async function main() {
         async function $_istqbuster_result_c() {
             gaiman.echo(``);
             if ($_istqbuster_c_score >= 26) {
-                await gaiman.echo_extra(`[[;#A6E3A1;]You win]`, 350);
+                await gaiman.echo_extra(`[[;#A6E3A1;]You win]`, 35);
                 await gaiman.echo_extra(`[[;#F5C2E7;]result:]`, 30);
                 gaiman.echo($_istqbuster_c_score);
                 await gaiman.echo_extra(`[[;#F38BA8;]Congratulations, you are on the right track, keep practicing!]`, 30);
@@ -4248,7 +4248,7 @@ async function main() {
                 await $_restart();
             } else {
                 gaiman.echo(``);
-                await gaiman.echo_extra(`[[;#F38BA8;]You loose]`, 350);
+                await gaiman.echo_extra(`[[;#F38BA8;]You loose]`, 35);
                 await gaiman.echo_extra(`[[;#F5C2E7;]result:]`, 30);
                 gaiman.echo($_istqbuster_c_score);
                 await gaiman.echo_extra(`[[;#F38BA8;]Keep trying, Rome wasn't built in a day!]`, 30);
@@ -4257,7 +4257,7 @@ async function main() {
             }
         }
         async function $_restart() {
-            await gaiman.echo_extra(`Let's keep practicing,type the exam letter that you want:`, 350);
+            await gaiman.echo_extra(`Let's keep practicing,type the exam letter that you want:`, 35);
             let $_confirm = await gaiman.ask(`[[;#F38BA8;]A], [[;#94E2D5;]B] or [[;#89B4FA;]C] `);
             if ($$__m = String($_confirm).match(/a/i), !!$$__m) {
                 gaiman.echo(``);
@@ -4336,7 +4336,7 @@ async function main() {
         gaiman.echo(``);
         await gaiman.echo_extra(`[[;#F9E2AF;]Which exam would you like to practice?]`, 40);
         gaiman.echo(``);
-        await gaiman.echo_extra(`Type the exam letter that you want:`, 350);
+        await gaiman.echo_extra(`Type the exam letter that you want:`, 35);
         let $_confirm = await gaiman.ask(`[[;#F38BA8;]A], [[;#94E2D5;]B] or [[;#89B4FA;]C] `);
         if ($$__m = String($_confirm).match(/a/i), !!$$__m) {
             gaiman.echo(``);
