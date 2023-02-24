@@ -884,8 +884,8 @@ function _main() {
                 while (1) switch (_context131.prev = _context131.next) {
                   case 0:
                     gaiman.echo("");
-                    audio.volume = 0.40;
                     audio.play();
+                    audio.volume = 0.40; // 40%
                   case 2:
                   case "end":
                     return _context131.stop();
