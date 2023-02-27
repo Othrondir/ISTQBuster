@@ -12781,13 +12781,13 @@ function _main() {
           $_istqbuster_a_score = 0;
           $_istqbuster_b_score = 0;
           $_istqbuster_c_score = 0;
-          $_greetings = '   [[;#F5C2E7;]_____, _________  _ __]               \r\n  [[;#F5C2E7;]( /(   (  /  /   )( /  )        _/_]   \r\n   [[;#F5C2E7;]/  `.   /  /_  /  /--< , , (   /  _  _]\r\n [[;#F5C2E7;]_/_(___)_/  (__\\/  /___/(_/_/_)_(__(/_/ (_]\r\n                 [[;#F5C2E7;]\\_]\r\n [[;#BAC2DE;]Practice your ISTQB certification exams]\r\n\r';
+          $_greetings = '   [[;#F5C2E7;]_____, _________  _ __]               \r\n  [[;#F5C2E7;]( /(   (  /  /   )( /  )        _/_]   \r\n   [[;#F5C2E7;]/  `.   /  /_  /  /--< , , (   /  _  _]\r\n [[;#F5C2E7;]_/_(___)_/  (__\\/  /___/(_/_/_)_(__(/_/ (_]\r\n                 [[;#F5C2E7;]\\_]\r\n [[;#BAC2DE;]ISTQB Foundation Level Training Quiz]\r\n\r';
           gaiman.echo($_greetings);
           _context132.next = 260;
           return gaiman.sleep(100);
         case 260:
           _context132.next = 262;
-          return gaiman.echo_extra("[[;#94E2D5;]Welcome, we recommend relaxing music to concentrate]", 30);
+          return gaiman.echo_extra("[[;#94E2D5;]We recommend relaxing music to concentrate]", 30);
         case 262:
           _context132.next = 264;
           return gaiman.echo_extra("[[;#94E2D5;]Do you want to activate it?]", 30);

@@ -4303,10 +4303,10 @@ async function main() {
             audio.play();
             audio.volume = 0.20; // 20%
         }
-        let $_greetings = '   [[;#F5C2E7;]_____, _________  _ __]               \r\n  [[;#F5C2E7;]( /(   (  /  /   )( /  )        _/_]   \r\n   [[;#F5C2E7;]/  `.   /  /_  /  /--< , , (   /  _  _]\r\n [[;#F5C2E7;]_/_(___)_/  (__\\/  /___/(_/_/_)_(__(/_/ (_]\r\n                 [[;#F5C2E7;]\\_]\r\n [[;#BAC2DE;]Practice your ISTQB certification exams]\r\n\r';
+        let $_greetings = '   [[;#F5C2E7;]_____, _________  _ __]               \r\n  [[;#F5C2E7;]( /(   (  /  /   )( /  )        _/_]   \r\n   [[;#F5C2E7;]/  `.   /  /_  /  /--< , , (   /  _  _]\r\n [[;#F5C2E7;]_/_(___)_/  (__\\/  /___/(_/_/_)_(__(/_/ (_]\r\n                 [[;#F5C2E7;]\\_]\r\n [[;#BAC2DE;]ISTQB Foundation Level Training Quiz]\r\n\r';
         gaiman.echo($_greetings);
         await gaiman.sleep(100);
-        await gaiman.echo_extra(`[[;#94E2D5;]Welcome, we recommend relaxing music to concentrate]`, 30);
+        await gaiman.echo_extra(`[[;#94E2D5;]We recommend relaxing music to concentrate]`, 30);
         await gaiman.echo_extra(`[[;#94E2D5;]Do you want to activate it?]`, 30);
         gaiman.echo(``);
         let $_music = await gaiman.ask(`[[;#A6E3A1;]yes]/[[;#F38BA8;]no]? `);
